@@ -1,15 +1,10 @@
-double my_pow(double number, int n){
-	bool negative = false;
-	if (n < 0){
-		negative = true;
-		n*=-1;
-	}
-	double result = 1; 
-	for (int i = 0; i < n; ++i){
-		result*= number; 
-	}
-	if (negative){
-		result = 1 / result;
+double my_pow(double number, unsigned int n){
+	int result = 1
+	while (pow > 0){
+		if (pow % 2 == 1)
+			result *= value
+		value *= value
+		pow /= 2;
 	}
 	return result;
 }
